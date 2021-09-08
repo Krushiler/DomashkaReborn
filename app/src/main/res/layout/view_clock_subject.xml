@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/parentRingLayout">
+        <TextView
+            android:id="@+id/tvSubjectNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Урок 1"
+            android:gravity="center"
+            android:textColor="@color/primaryText"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_marginVertical="10dp"
+            android:id="@+id/timeClockLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/clockStart"
+                android:layout_height="wrap_content"
+                android:text="-:-"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@color/primaryText"
+                android:layout_weight="1"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:id="@+id/betweenTimes"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/clockEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-:-"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/primaryText"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+
+</merge>

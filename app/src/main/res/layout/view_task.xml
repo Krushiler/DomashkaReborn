@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="bottom"
+    android:paddingVertical="5sp"
+    tools:orientation="horizontal"
+    tools:parentTag="android.widget.LinearLayout">
+
+
+    <Spinner
+        android:id="@+id/subjectSP"
+        android:layout_width="match_parent"
+        android:layout_height="64sp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/homeworkET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textColor="@color/homework_et"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        android:textSize="18sp" />
+
+
+</merge>

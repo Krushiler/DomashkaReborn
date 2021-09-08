@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="?listPreferredItemHeight"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <TextView
+        android:id="@+id/subjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/primaryText"
+        android:textSize="20sp"
+        android:text="Предмет"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/handle"
+        android:layout_width="100dp"
+        android:scaleX=".7"
+        android:scaleY=".7"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right"
+        android:src="@drawable/baseline_drag_handle_black_48" />
+</FrameLayout>

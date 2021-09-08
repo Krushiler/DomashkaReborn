@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/radioDayGroup"
+        android:elevation="8dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioDay1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:background="@drawable/days_radio_selector"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:text="ПН" />
+
+        <RadioButton
+            android:id="@+id/radioDay2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:button="@android:color/transparent"
+            android:background="@drawable/days_radio_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:text="ВТ" />
+
+        <RadioButton
+            android:id="@+id/radioDay3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:button="@android:color/transparent"
+            android:background="@drawable/days_radio_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:text="СР" />
+
+        <RadioButton
+            android:id="@+id/radioDay4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:background="@drawable/days_radio_selector"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:text="ЧТ" />
+
+        <RadioButton
+            android:id="@+id/radioDay5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:button="@android:color/transparent"
+            android:background="@drawable/days_radio_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:text="ПТ" />
+
+        <RadioButton
+            android:id="@+id/radioDay6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:button="@android:color/transparent"
+            android:background="@drawable/days_radio_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:text="СБ" />
+    </RadioGroup>
+</layout>
